@@ -1,0 +1,39 @@
+.gdpr-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    line-height: 1.6;
+  }
+  
+  .gdpr-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .gdpr-container .last-updated {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .gdpr-section {
+    margin-bottom: 24px;
+  }
+  
+  .gdpr-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .gdpr-section ul {
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+  
+  .gdpr-section ul li {
+    margin-bottom: 6px;
+  }
+  

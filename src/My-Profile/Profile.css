@@ -1,0 +1,140 @@
+.profile-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.profile-header {
+    color: #2c3e50;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin-bottom: 10px;
+}
+
+.avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.disabled-input {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+}
+
+.form-group-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group-row .form-group {
+    flex: 1;
+}
+
+
+.cancel-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(62, 113, 185, 1);
+    background-color: transparent;
+    cursor: pointer;
+    width: 20%;
+    color: rgba(62, 113, 185, 1);
+}
+
+.save-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(62, 113, 185, 1);
+    color: white;
+    cursor: pointer;
+    width: 20%;
+}
+
+/* .cancel-button:hover {
+    background-color: #b0b0b0;
+} */
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    flex: 1;
+    padding-right: 50px; /* Space for the button */
+}
+
+.show-password-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    .profile-container {
+        width: 100%;
+        margin: auto;
+        padding: 20px 40px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .cancel-button {
+        padding: 5px 0px;
+        border-radius: 5px;
+        border: 1px solid rgba(62, 113, 185, 1);
+        background-color: transparent;
+        cursor: pointer;
+        width: 20%;
+        color: rgba(62, 113, 185, 1);
+    }
+    
+}

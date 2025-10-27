@@ -1,0 +1,96 @@
+.custom-navbar {
+    background-color: #2d5da3 !important;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.brand-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.subscriptions {
+    color: white;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.credit-box {
+    background-color: transparent;
+    color: #ffcc00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.profile-img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.user-profile .dropdown-toggle {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.user-profile .dropdown-menu {
+    background-color: white;
+    min-width: 120px;
+}
+
+.Prospect{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Prospect:hover {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+.sub:hover {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .navbar-nav{
+        padding-left: 0px !important;
+        gap: 0px !important;
+    }
+    
+}

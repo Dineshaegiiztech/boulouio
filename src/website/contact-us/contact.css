@@ -1,0 +1,133 @@
+.body-demo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(360deg, #87ABDF 0%, #6F95CA 100%); */
+    /* color: white; */
+  }
+  
+  @media (min-width: 768px) {
+    .container-demo {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  .left-demo {
+    flex: 1;
+    padding-right: 40px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .left-demo {
+      text-align: left;
+    }
+  }
+  
+  .highlight-demo {
+    color: #facc15;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .title-demo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .description-demo {
+    margin-bottom: 24px;
+  }
+  
+  .red-text-demo {
+    color: black;
+  }
+  
+  .image-box-demo {
+    margin-bottom: 24px;
+  }
+  
+  .preview-img-demo {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .certifications-demo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .certifications-demo {
+      justify-content: flex-start;
+    }
+  }
+  
+  .right-demos {
+    flex: 1;
+    background-color: #1a1833;
+    padding: 32px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .right-demo {
+      margin-top: 0;
+    }
+  }
+  
+  .form-title-demo {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  
+  .form-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: justify;
+  }
+  
+  .input-demo {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2b2a4c;
+    color: white;
+  }
+  
+  .input::placeholder {
+    color: #ccc;
+  }
+  
+  .checkbox-label-demo {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .checkbox-demo {
+    margin-right: 8px;
+  }
+  
+  .submit-button-demo {
+    padding: 12px;
+    background-color: #f0860f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-button-demo:hover {
+    background-color: #2d5da3;
+  }
+  

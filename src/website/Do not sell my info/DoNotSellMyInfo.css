@@ -1,0 +1,50 @@
+.container-donot {
+   
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container-donot h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .container-donot h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .container-donot p {
+    margin-bottom: 16px;
+  }
+  
+  .container-donot ul {
+    padding-left: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .container-donot li {
+    margin-bottom: 8px;
+  }
+  
+  .container-donot a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .container-donot a:hover {
+    text-decoration: underline;
+  }
+  
+  .container-donot small,
+  .container-donot .date {
+    font-size: 14px;
+    color: #666;
+  }
+  

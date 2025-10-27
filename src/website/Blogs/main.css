@@ -1,0 +1,28 @@
+.fixed-card {
+    width: 18rem;
+    height: 400px; /* Set your desired height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hoverchange{
+    background:#2d5da3;
+    color: white;  
+  }
+
+  .hoverchange:hover{
+    background: black;
+    color: white;  
+  }
+  
+  @media (max-width: 480px) {
+    .fixed-card {
+        margin-left: 12px;
+        width: 85%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+  }

@@ -1,0 +1,140 @@
+.specialties-section {
+    padding: 3rem 1.5rem;
+    background-color: #f7f8f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    font-size: 1.125rem;
+    color: #374151;
+    margin-bottom: 2.5rem;
+}
+
+.specialties-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.specialties-column {
+    list-style: none;
+    padding: 0;
+}
+
+.specialty-item {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.125rem;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.checkmark {
+    color: #1d4ed8;
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.section-footer {
+    margin-top: 3rem;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1f2937;
+    font-size: 1rem;
+}
+
+
+.medical-coding-section-blue {
+    background-color: #2166ae;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.title-blue {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle-blue {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coding-cards-blue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.coding-card-blue {
+    background-color: white;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 700px;
+    width: 95%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 12px;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .coding-card-blue {
+        flex-direction: row;
+        /* side by side on large screens */
+        text-align: left;
+        margin-top: 12px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  
+    .mob {
+        margin-top: 20px;
+    }
+}
+
+.card-image-blue {
+    width: 180px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content-blue {
+    text-align: left;
+    padding: 20px;
+}
+
+.card-title-blue {
+    font-size: 17px;
+    font-weight: 700;
+    color: #2166ae;
+    margin-bottom: 10px;
+}
+
+.card-text-blue {
+    font-size: 13px;
+    line-height: 1.6;
+}

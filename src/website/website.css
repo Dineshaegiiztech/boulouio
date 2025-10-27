@@ -1,0 +1,223 @@
+/* .website {
+    background: linear-gradient(360deg, #87ABDF 0%, #6F95CA 100%);
+    min-height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-web {
+    margin: 0 auto;
+    padding: 0px 30px;
+    height: 100% !important;
+}
+
+.section-container-web {
+    background-color: #0b0b23;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title-web {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card-grid-web {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-web {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.icon-web {
+    background-color: #1b1b38;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #ff4d4d;
+    margin-right: 15px;
+}
+
+.card-content-web h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.card-content-web p {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.contact-btn-web {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f0860f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-btn-web:hover {
+    background-color: #7197cc;
+}
+
+.faq-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-item {
+    background-color: #f9fafc;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    padding: 18px 22px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0c0c22;
+  }
+  
+  .faq-icon {
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  .faq-answer {
+    margin-top: 12px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+   */
+
+   .website {
+    background: white;
+    color: black;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-web {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0px 30px;
+    height: 100% !important;
+}
+
+.section-container-web {
+    background-color: #faefe2;
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title-web {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card-grid-web {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-web {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.icon-web {
+    background-color: #1b1b38;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #ff4d4d;
+    margin-right: 15px;
+}
+
+.card-content-web h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.card-content-web p {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.contact-btn-web {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f0860f;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-btn-web:hover {
+    background-color: #7197cc;
+}
+
+.faq-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-item {
+    background-color: #f9fafc;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    padding: 18px 22px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0c0c22;
+  }
+  
+  .faq-icon {
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  .faq-answer {
+    margin-top: 12px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  

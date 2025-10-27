@@ -1,0 +1,68 @@
+.container-cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .card-cancel {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .icon-cancel {
+    width: 60px;
+    height: 60px;
+    color: red;
+    margin: 0 auto 10px;
+  }
+  
+  .title-cancel {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .message-cancel {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .actions-cancel {
+    margin-top: 20px;
+  }
+  
+  .retry-cancel {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .retry-cancel:hover {
+    background-color: darkred;
+  }
+  
+  .support-cancel {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .support-cancel:hover {
+    background-color: #f1f1f1;
+  }
+  

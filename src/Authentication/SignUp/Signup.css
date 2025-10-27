@@ -1,0 +1,254 @@
+.signupimage {
+    height: 100vh;
+    background: linear-gradient(360deg, #87ABDF 0%, #6F95CA 100%);
+}
+
+.signframe {
+    margin: 20px;
+    padding: 90px 0px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    color: #4a73b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.line {
+    width: 140px;
+    height: 2px;
+    background: white;
+    margin: 0 10px;
+}
+
+.step-label {
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.active {
+    background: #1e3d76;
+    color: white;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 4px;
+    border: none;
+}
+
+.input-group .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-container input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.create-btn {
+    margin-top: 15px;
+    padding: 10px;
+    background: #1e3d76;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.create-btn:hover {
+    background: #163061;
+}
+
+.otp-containers {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.otp-containers input {
+    width: 60px;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.otp-box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+.otp-box:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px #007bff;
+}
+
+.OTPwords {
+    color: rgba(24, 73, 143, 1);
+    font-weight: bold;
+}
+
+.phone-input-wrapper {
+    position: relative;
+}
+
+.phone-input-wrapper .PhoneInput {
+    position: relative;
+    width: 100%;
+}
+
+.phone-input-wrapper .PhoneInput input {
+    padding-left: 50px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    background: white;
+}
+
+.phone-input-wrapper .PhoneInputCountry {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 480px) {
+    .signframe {
+        margin: 0px !important;
+        padding: 90px 0px;
+        width: 100%;
+    }
+
+    .mobile-container {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1440px) {
+ .mobile-container {
+        width: 70% !important;
+        margin-top: 120px;
+    }
+}
+.modern-tabs {
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* padding: 4px; */
+}
+
+.modern-tab {
+    flex: 1;
+    padding: 12px 0;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.modern-tab-text {
+    position: relative;
+    z-index: 2;
+}
+
+.modern-tab-active {
+    color: white;
+}
+
+.modern-tab-indicator {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+    border-radius: 6px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.modern-tab-active .modern-tab-indicator {
+    transform: scaleX(1);
+}
+
+/* Optional: Add hover effect */
+.modern-tab:not(.modern-tab-active):hover {
+    color: rgba(255, 255, 255, 0.9);
+}

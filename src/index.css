@@ -1,0 +1,39 @@
+.btn-danger {
+    background-color: #f7970c !important;
+    border: none !important;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.logos-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    /* optional: useful if logo has multiple items */
+    align-items: center;
+}
+
+
+@media (max-width: 480px) {
+    .mob-new {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu.mega-menu {
+    position: static !important;
+    width: 100% !important;
+    box-shadow: none;
+    padding: 1rem;
+  }
+
+  .dropdown-menu.mega-menu .custom-icon {
+    margin-right: 0.5rem;
+  }
+}

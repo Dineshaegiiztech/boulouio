@@ -1,0 +1,107 @@
+.container-pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .card-pricing {
+    background: linear-gradient(to bottom, #3a8dff, #005be0);
+    color: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 280px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .radio-circle-pricing {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  
+  .radio-circle-pricing.checked {
+    background-color: white;
+  }
+  
+  .card-pricing h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .card-pricing h3 {
+    font-size: 18px;
+    margin: 10px 0 20px;
+  }
+  
+  .company-pricing {
+    font-size: 14px;
+    color: #d3d3d3;
+    margin: 0 0 12px 0;
+  }
+  
+  .card-pricing ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .card-pricing li {
+    font-size: 14px;
+    margin: 8px 0;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    color: #f2c8ff;
+  }
+  
+  .card-pricing li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #f2c8ff;
+  }
+  
+  .subscribed-btn-pricing,
+  .choose-btn-pricing {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .subscribed-btn-pricing {
+    background-color: white;
+    color: #333;
+    cursor: default;
+  }
+  
+  .choose-btn-pricing {
+    background-color: white;
+    color: #005be0;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    .container-pricing {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .card-pricing {
+      width: 90%; /* make cards nearly full width on mobile */
+      margin-bottom: 20px; /* spacing between cards */
+    }
+  }
+  

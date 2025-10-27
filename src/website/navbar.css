@@ -1,0 +1,129 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: transparent;
+  background-color: #2d5da3 !important;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  width: 25%;
+}
+
+.arrow {
+  color: red;
+  font-size: 22px;
+  position: relative;
+  top: -2px;
+  margin-right: 4px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 35px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: yellow !important;
+}
+
+.nav-links li {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-links li:hover {
+  color: black;
+}
+
+.demo-btn {
+  background-color: #ff8817;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .demo-btn:hover {
+  background-color: #f0860f;
+} */
+
+.dropdown-menu-web {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #222;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 220px;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  /* margin-top: 3px; */
+}
+
+.dropdown-menu-web li {
+  padding: 10px 20px;
+  white-space: nowrap;
+  display: block;
+}
+
+.dropdown-menu-web :hover {
+  /* padding: 10px 20px;
+  white-space: nowrap; */
+  background: #2d5da3;
+}
+
+.dropdown-menu-web li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu-web {
+  display: block;
+}
+
+.navbar-toggler-icon {
+  background-image: none; /* remove default icon */
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
